@@ -1,5 +1,16 @@
 # NLPEe-ers - Emotion Classification using BERT
 
+## Team Information
+
+**Team Name:** NLPEe-ers  
+
+**Members:**
+- Shreyas S Mallappa – PES1UG23AM296
+- Siddharth M – PES1UG23AM303
+- Sanat Shirwaicar – PES1UG23AM266
+- Shreyansh Subham – PES1UG23AM294
+
+
 ## Dataset Used
 Emotion Dataset (110k)  
 Source: HuggingFace - shreyaspullehf/emotion_dataset_100k
