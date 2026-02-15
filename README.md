@@ -1,4 +1,4 @@
-# NLPEe-ers - Emotion Classification using BERT
+# NLPee-ers - Emotion Classification using BERT
 
 ## Team Information
 
