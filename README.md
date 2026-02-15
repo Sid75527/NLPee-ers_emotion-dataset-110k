@@ -2,7 +2,7 @@
 
 ## Team Information
 
-**Team Name:** NLPEe-ers  
+**Team Name:** NLPee-ers  
 
 **Members:**
 - Shreyas S Mallappa – PES1UG23AM296
