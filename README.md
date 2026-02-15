@@ -25,6 +25,36 @@ The model was trained using a custom PyTorch training loop (no HuggingFace Train
 
 ---
 
+## Approach
+
+1. Loaded the dataset using HuggingFace `datasets`.
+2. Performed Exploratory Data Analysis (EDA) to examine class distribution and text length.
+3. Tokenized the text using `BertTokenizer` with a maximum sequence length of 128.
+4. Fine-tuned a pre-trained `bert-base-uncased` model using a custom PyTorch training loop.
+5. Evaluated the model using Accuracy, Precision, Recall, F1-score (weighted), and a Confusion Matrix.
+6. Implemented an inference pipeline to predict emotion labels for custom input text.
+
+---
+
+## Assumptions
+
+- The dataset is correctly labeled and does not contain significant noise.
+- Since the dataset is balanced, no additional class weighting or resampling techniques were applied.
+- A maximum sequence length of 128 tokens is sufficient, as most sentences in the dataset are relatively short.
+- The task is treated as a single-label classification problem (one dominant emotion per sentence).
+
+---
+
+## Observations
+
+- The dataset is well-balanced across all emotion classes.
+- The fine-tuned BERT model converged quickly and achieved strong performance (F1 ≈ 0.95).
+- The model performs well on explicit emotional expressions.
+- Some limitations were observed in handling negation and mixed-emotion sentences.
+- The confusion matrix indicates minor confusion between semantically similar emotions.
+
+---
+
 ## Dataset Description
 
 The dataset contains 10 emotion classes:
